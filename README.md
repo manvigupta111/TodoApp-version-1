@@ -1,12 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Todo App Version 1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple and responsive Todo List application built with React. Users can add tasks with due dates and delete tasks dynamically.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Add new tasks
+* Assign due dates to tasks
+* Delete existing tasks
+* Responsive layout using Bootstrap
+* Form validation with required inputs
+* Dynamic rendering using React state
+
+---
+
+## Tech Stack
+
+* React
+* JavaScript (ES6+)
+* CSS
+* Bootstrap
+
+---
+
+## Project Structure
+
+```bash
+src/
+ ├── App.jsx
+ ├── App.css
+ └── main.jsx
+```
+
+---
+
+## Learning Highlights
+
+This project helped practice:
+
+* React Hooks (`useState`)
+* Event handling in React
+* Form submission handling
+* State updates
+* Conditional rendering
+* Array methods like `map`, `filter`, and `reverse`
+
+
+<img width="806" height="778" alt="Screenshot 2026-05-14 at 12 33 40 AM" src="https://github.com/user-attachments/assets/bd78c52c-ba50-44a5-8f33-93628d1ff2ca" />
+
